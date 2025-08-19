@@ -85,10 +85,9 @@ nav ul li a {
 }
 
 #bir {
-	background: url("https://upload.wikimedia.org/wikipedia/commons/5/59/Tower_Bridge_at_Dawn.jpg")
+	background: url("https://optim.tildacdn.one/tild3839-3836-4863-b835-373039393761/-/format/webp/Group_1000003722-min.png.webp")
 		no-repeat;
 	background-size: cover;
-
 }
 
 .hero {
@@ -103,17 +102,16 @@ nav ul li a {
 }
 .hero-text h1 {
 	font-size: 40px;
-    text-transform: uppercase;
+	text-transform: uppercase;
 	margin-bottom: 1rem;
 }
 .hero-text p {
 	margin-bottom: 1rem;
-    font-size: 20px;
+	font-size: 20px;
 }
 .hero-img img {
 	width: 100%;
 	max-width: 530px;
-
 }
 @media (max-width: 768px) {
 	.hero {
@@ -128,8 +126,7 @@ section {
 }
 h2 {
 	text-align: center;
-	margin-bottom: 2rem;
-	font-size: 1.8rem;
+
 }
 
 .about-grid,
@@ -203,4 +200,53 @@ blockquote {
 	text-align: center;
 	padding: 2rem 0;
 	margin-top: 3rem;
+}
+
+.btn2 {
+	background: #c8a44c;
+	color: #000;
+
+	height: 50px;
+	width: 200px;
+	border-radius: 10px;
+	border: none;
+
+	font-size: 20px;
+}
+
+.about-title {
+	font-size: 30px;
+}
+
+.title1 {
+	text-align: center;
+font-weight: 700;
+	margin: 0 auto;
+	font-size: 25px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.title2 {
+	text-align: center;
+	max-width: 600px;
+	margin: 0 auto;
+	font-size: 25px;
+	margin-bottom: 40px;
+}
+
+.about-grid .card {
+	background-color: #c8a44c;
+	color: black;
+}
+
+
+
+.about-grid .card img {
+	max-width: 100%;
+}
+
+
+.about-grid .card h2 {
+	font-size: 20px;
 }
