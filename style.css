@@ -6,8 +6,6 @@
 body {
 	font-family: Arial, sans-serif;
 	line-height: 1.6;
-	background: #111;
-	color: #eee;
 }
 a {
 	text-decoration: none;
@@ -22,8 +20,6 @@ a {
 
 /* HEADER */
 .header {
-	background: #000;
-	color: #fff;
 	padding: 1rem 0;
 }
 .nav {
@@ -34,6 +30,7 @@ a {
 .logo {
 	font-weight: bold;
 	font-size: 1.2rem;
+	color: #f97a00;
 }
 
 nav ul {
@@ -41,12 +38,14 @@ nav ul {
 	display: flex;
 	gap: 1.5rem;
 }
-nav ul li a {
-	color: #fff;
+
+ul li a {
+	color: #f97a00;
 }
+
 .btn {
-	background: #c8a44c;
-	color: #000;
+	background: #f97a00;
+	color: white;
 	padding: 0.5rem 1rem;
 	border-radius: 5px;
 	display: inline-block;
@@ -62,7 +61,7 @@ nav ul li a {
 .hamburger span {
 	width: 25px;
 	height: 3px;
-	background: #fff;
+	background: #000;
 }
 
 @media (max-width: 768px) {
@@ -85,21 +84,23 @@ nav ul li a {
 }
 
 #bir {
-	background: url("https://optim.tildacdn.one/tild3839-3836-4863-b835-373039393761/-/format/webp/Group_1000003722-min.png.webp")
+	background: url("https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/topic-london-gettyimages-760251843-feature?_a=BAVAZGDX0")
 		no-repeat;
 	background-size: cover;
 }
 
 .hero {
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 2rem 0;
-	gap: 2rem;
+
+	justify-content: right;
+	height: 700px;
 }
+
 .hero-text {
-	flex: 1;
+	max-width: 600px;
+	color: #ffffff;
 }
+
 .hero-text h1 {
 	font-size: 40px;
 	text-transform: uppercase;
@@ -126,7 +127,6 @@ section {
 }
 h2 {
 	text-align: center;
-
 }
 
 .about-grid,
@@ -152,7 +152,8 @@ h2 {
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 .program-card {
-	background: #222;
+	box-shadow: 10px 10px 30px #F97A00;
+
 	border-radius: 10px;
 	overflow: hidden;
 	text-align: center;
@@ -172,7 +173,7 @@ h2 {
 .partner-grid img {
 	border-radius: 10px;
 	width: 100%;
-	height: auto;
+	height: 100%;
 }
 
 .cert-grid {
@@ -187,24 +188,46 @@ h2 {
 .test-grid {
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
+
+.testimonials h2 {
+	color: #f97a00;
+}
+
+
+.certificates h2 {
+	color: #f97a00;
+}
+
+.programs h2 {
+	color: #f97a00;
+}
+
+.countries h2 {
+	color: #f97a00;
+}
+
 blockquote {
-	background: #222;
+	border: 1px solid #F97A00;
+
 	padding: 1rem;
-	border-left: 5px solid #c8a44c;
+	border-left: 5px solid #F97A00;
+
 	border-radius: 5px;
+	color: #f97a00;
 }
 
 .footer {
-	background: #000;
-	color: #aaa;
+	background: #F97A00;
+	color: white;
 	text-align: center;
 	padding: 2rem 0;
 	margin-top: 3rem;
+	font-size: 20px;
 }
 
 .btn2 {
-	background: #c8a44c;
-	color: #000;
+	background: #f97a00;
+	color: white;
 
 	height: 50px;
 	width: 200px;
@@ -216,15 +239,17 @@ blockquote {
 
 .about-title {
 	font-size: 30px;
+	color: #F97A00;
 }
 
 .title1 {
 	text-align: center;
-font-weight: 700;
+	font-weight: 700;
 	margin: 0 auto;
 	font-size: 25px;
 	margin-bottom: 40px;
 	margin-top: 40px;
+	color: #F97A00;
 }
 
 .title2 {
@@ -234,24 +259,22 @@ font-weight: 700;
 	font-size: 25px;
 	margin-top: 40px;
 	margin-bottom: 40px;
+	color: #F97A00;
 }
 
 .about-grid .card {
-	background-color: #c8a44c;
-	color: black;
+	background-color: white;
+	color: #F97A00;
+	box-shadow: 10px 10px 30px #F97A00;
 }
-
-
 
 .about-grid .card img {
 	max-width: 100%;
 }
 
-
 .about-grid .card h2 {
 	font-size: 20px;
 }
-
 
 .links img {
 	width: 60px;
