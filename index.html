@@ -3,187 +3,126 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Accel Consulting</title>
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
 		<!-- HEADER -->
 		<header class="header">
 			<div class="container nav">
-				<div class="logo">Accel Consulting</div>
+				<div class="logo" data-i18n="logo">Accel Consulting</div>
 				<nav>
 					<div class="hamburger" id="hamburger">
 						<span></span><span></span><span></span>
 					</div>
 					<ul id="nav-links">
-						<li><a href="#about">Biz haqimizda</a></li>
-						<li><a href="#programs">Dasturlar</a></li>
-						<li><a href="#contact">Aloqa</a></li>
+						<li><a href="#about" data-i18n="nav.about">About Us</a></li>
+						<li><a href="#programs" data-i18n="nav.programs">Programs</a></li>
+						<li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+
+						<li>
+							<select id="lang-switch">
+								<option value="en">🇬🇧 EN</option>
+								<option value="ru">🇷🇺 RU</option>
+								<option value="uz">🇺🇿 UZ</option>
+							</select>
+						</li>
 					</ul>
 				</nav>
-				<a href="#apply" class="btn">Ariza topshirish</a>
+
+				<a href="#apply" class="btn" data-i18n="apply">Apply Now</a>
+
+				<!-- Language Switch -->
 			</div>
 		</header>
 
+		<!-- HERO -->
 		<section id="bir">
 			<div class="hero container">
 				<div class="hero-text">
-					<h1>
-						Accel Consulting bilan eng yaxshi universitetlar talabasi bo'lish imkoniyatiga ega boling
+					<h1 data-i18n="hero.title">
+						Get the opportunity to study at the world’s best universities with
+						Accel Consulting
 					</h1>
-
 					<button href="#apply" class="btn2">
-						<a href="">Royhatdan otish</a>
+						<a href="" data-i18n="hero.register">Register</a>
 					</button>
 				</div>
-
 			</div>
 		</section>
 
 		<!-- ABOUT -->
 		<section id="about" class="about container">
-			<h2 class="about-title">Biz haqimizda</h2>
-
-			<div class="title1">
-				Passionate about international education and student mobility, We support students in finding the right academic and career pathways abroad. With a strong understanding of global education systems, We assist with school and university placement, visa guidance, and cultural preparation. Our goal is to build trusted relationships with institutions and help learners succeed in their international journey.
+			<h2 class="about-title" data-i18n="about.title">About Us</h2>
+			<div class="title1" data-i18n="about.text1">
+				Passionate about international education and student mobility, we
+				support students...
 			</div>
-
-
 			<div class="links">
 				<a href="https://www.instagram.com/acceleducationcentre/">
-					<img src="img/instagram.png" alt="">
+					<img src="img/instagram.png" alt="Instagram" />
 				</a>
-
 				<a href="https://t.me/acceleducation">
-					<img src="img/telegram.png" alt="">
+					<img src="img/telegram.png" alt="Telegram" />
 				</a>
 			</div>
-
-
-			<div class="title2">
-				ACCEL Consulting xalqaro ta’lim bo‘yicha konsalting xizmatlari
-				ko‘rsatadi. Sizning maqsadingiz – bizning missiyamiz.
+			<div class="title2" data-i18n="about.text2">
+				ACCEL Consulting provides international education consulting services.
+				Your goal is our mission.
 			</div>
+
 			<div class="about-grid">
 				<div class="card">
-					<h2>Tajriba</h2>
-
-					<img src="img/briefcase.png" alt="">
+					<h2 data-i18n="about.experience">Experience</h2>
+					<img src="img/briefcase.png" alt="Experience" />
 				</div>
 				<div class="card">
-					<h2>Professional jamoa</h2>
-
-					<img src="img/group.png" alt="">
+					<h2 data-i18n="about.team">Professional Team</h2>
+					<img src="img/group.png" alt="Team" />
 				</div>
 				<div class="card">
-					<h2>Xalqaro hamkorlik</h2>
-
-					<img src="img/world.png" alt="">
+					<h2 data-i18n="about.partnership">International Partnership</h2>
+					<img src="img/world.png" alt="Partnership" />
 				</div>
 				<div class="card">
-					<h2>Yuqori natijalar</h2>
-
-					<img src="img/medical-result.png" alt="">
+					<h2 data-i18n="about.results">High Results</h2>
+					<img src="img/medical-result.png" alt="Results" />
 				</div>
 			</div>
 		</section>
 
 		<!-- PROGRAMS -->
 		<section id="programs" class="programs container">
-			<h2>Bizning dasturlar</h2>
+			<h2 data-i18n="programs.title">Our Programs</h2>
 			<div class="programs-grid">
 				<div class="program-card">
-					<img
-						src="https://yt3.googleusercontent.com/q_Hg0aqSNbPVI4Q_XMofo3_0Ty3Tglf_sShwIEo8LjJsWb7OZTYNWdUhRTByFhY5Y0-507NXbg=s900-c-k-c0x00ffffff-no-rj"
-						alt="Foundation"
-						loading="lazy"
-					/>
-					<h3>Foundation</h3>
-					<p>Dastlabki tayyorlov kurslari.</p>
-				</div>
-
-				<div class="program-card">
-					<img
-						src="https://cdn-icons-png.flaticon.com/512/3751/3751876.png"
-						alt="Bachelor"
-						loading="lazy"
-					/>
-					<h3>Bachelor</h3>
-					<p>Bakalavr darajasi uchun kurslar.</p>
+					<h3 data-i18n="programs.foundation">Foundation</h3>
+					<p data-i18n="programs.foundationText">
+						Preparatory courses for beginners.
+					</p>
 				</div>
 				<div class="program-card">
-					<img
-						src="img/education.png"
-						alt="Pre Masters"
-						loading="lazy"
-					/>
-					<h3>Masters</h3>
-					<p>Magistratura dasturlari.</p>
+					<h3 data-i18n="programs.bachelor">Bachelor</h3>
+					<p data-i18n="programs.bachelorText">
+						Programs for undergraduate degree.
+					</p>
 				</div>
-
-			</div>
-		</section>
-
-		<!-- COUNTRIES -->
-		<section class="countries container">
-			<h2>Ta'lim olish mumkin bo'lgan davlatlar</h2>
-			<div class="country-grid">
-				<img
-					src="https://www.globalexpansion.com/hs-fs/hubfs/United%20Kingdom.webp?width=820&height=444&name=United%20Kingdom.webp"
-					alt="UK"
-					loading="lazy"
-				/>
-				<img
-					src="https://www.harieducationalconsultancy.com/wp-content/uploads/2025/05/USA.jpg"
-					alt="USA"
-					loading="lazy"
-				/>
-				<img
-					src="https://www.euractiv.com/wp-content/uploads/sites/2/2023/03/shutterstock_2002411259.jpg"
-					alt="China"
-					loading="lazy"
-				/>
-			</div>
-		</section>
-
-		<!-- CERTIFICATES -->
-		<section class="certificates container">
-			<h2>Bizning sertifikatlar</h2>
-			<div class="cert-grid">
-				<img
-					src="img/Screenshot 2025-08-19 at 22.27.12.png"
-					alt="Cert 1"
-					loading="lazy"
-				/>
-				<img
-					src="img/Screenshot 2025-08-19 at 22.27.29.png"
-					alt="Cert 2"
-					loading="lazy"
-				/>
-
-		</section>
-
-
-
-		<!-- TESTIMONIALS -->
-		<section class="testimonials container">
-			<h2>Studentlar fikrlari</h2>
-			<div class="test-grid">
-				<blockquote>
-					“Accel yordamida orzumdagi universitetga kirdim.”
-				</blockquote>
-				<blockquote>“Professional maslahatlar uchun rahmat.”</blockquote>
-				<blockquote>“Natija kutganimdan ham yaxshi bo'ldi.”</blockquote>
+				<div class="program-card">
+					<h3 data-i18n="programs.masters">Masters</h3>
+					<p data-i18n="programs.mastersText">
+						Postgraduate master’s programs.
+					</p>
+				</div>
 			</div>
 		</section>
 
 		<!-- FOOTER -->
 		<footer id="contact" class="footer">
 			<div class="container">
-				<p>Islom Larimov kochasi 4b. Namangan shahar.</p>
-				<p>Email: info@ucanconsulting.com </p>
-
-				<p> Tel: <a href="tel:+998 90 154 00 33"> +998 90 154 00 33</a></p>
+				<p data-i18n="footer.address">
+					4b Islom Larimov Street, Namangan City.
+				</p>
+				<p>Tel: <a href="tel:+998901540033">+998 90 154 00 33</a></p>
 			</div>
 		</footer>
 
